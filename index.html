@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Место</title>
+    <link rel="stylesheet" href="./pages/index.css">
+</head>
+
+<body class="body">
+    <div class="page">
+        <header class="header">
+            <img class="header__logo" src="./images/Vector 1.svg" alt="Место">
+            <div class="header__line"></div>
+        </header>
+        <main class="content">
+            <section class="profile">
+                <article class="info">
+                    <img class="info__image" src="./images/image.jpg" alt="Аватарка">
+                    <div class="info__container">
+                        <div class="info__text">
+                            <h1 class="info__text-title">Жак-Ив Кусто</h1>
+                            <p class="info__text-subtitle">Исследователь океана</p>
+                        </div>
+                        <button class="info__button" id="open_popup_btn"></button>
+                    </div>
+
+                </article>
+                <button class="profile__add-button"></button>
+            </section>
+
+            <section class="elements">
+                <article class="element">
+                    <div class="element__rectangle">
+                        <img class="element__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
+                        <div class="element__group">
+                            <p class="element__text">Карачаевск</p>
+                            <img class="element__vector" src="images/Vector 4.svg" alt="сердечко">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="element">
+                    <div class="element__rectangle">
+                        <img class="element__image" src="./images/kirill-pershin-1404681-unsplash (1).png"
+                            alt="Гора Эльбрус">
+                        <div class="element__group">
+                            <p class="element__text">Гора Эльбрус</p>
+                            <img class="element__vector" src="./images/Vector 4.svg" alt="сердечко">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="element">
+                    <div class="element__rectangle">
+                        <img class="element__image" src="./images/kirill-pershin-1556355-unsplash (1).png" alt="Домбай">
+                        <div class="element__group">
+                            <p class="element__text">Домбай</p>
+                            <img class="element__vector" src="./images/Vector 4.svg" alt="сердечко">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="element">
+                    <div class="element__rectangle">
+                        <img class="element__image" src="./images/kirill-pershin-1404681-unsplash.png"
+                            alt="Гора Эльбрус">
+                        <div class="element__group">
+                            <p class="element__text">Гора Эльбрус</p>
+                            <img class="element__vector" src="./images/Vector 4.svg" alt="сердечко">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="element">
+                    <div class="element__rectangle">
+                        <img class="element__image" src="./images/kirill-pershin-1556355-unsplash.png" alt="Домбай">
+                        <div class="element__group">
+                            <p class="element__text">Домбай</p>
+                            <img class="element__vector" src="./images/Vector 4.svg" alt="сердечко">
+                        </div>
+                    </div>
+                </article>
+
+                <article class="element">
+                    <div class="element__rectangle">
+                        <img class="element__image" src="./images/kirill-pershin-1088404-unsplash.png"
+                            alt="Карачаево-Черкесия">
+                        <div class="element__group">
+                            <p class="element__text">Карачаево-Черкесия</p>
+                            <img class="element__vector" src="./images/Vector 4.svg" alt="сердечко">
+                        </div>
+                    </div>
+                </article>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="footer__copyright">&#169;&nbsp;2020 Mesto Russia</p>
+        </footer>
+        <div class="popup">
+            <div class="popup__overlay"></div>
+            <div class="popup__container">
+                <button class="popup__close"></button>
+                <h2 class="popup__title">Редактировать профиль</h2>
+                <form name="form" class="popup__form">
+                    <input type="text" id="nameInput" class="popup__edit_name" value="Жак-Ив Кусто">
+                    <input type="text" id="jobInput" class="popup__edit_comment" value="Исследователь океана">
+                    <button class="popup__save" type="submit">Сохранить</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./script/index.js"></script>
+
+</html>
