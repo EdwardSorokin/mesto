@@ -1,4 +1,4 @@
-.popup__edit_name {
+.popup__form_name {
     border: 0;
     display: block;
     margin: auto;
@@ -13,13 +13,13 @@
     box-shadow: none;
 }
 
-.popup__edit_name:focus {
+.popup__form_name:focus {
     outline: none;
     box-shadow: none;
 }
 
 @media (max-width: 630px) {
-    .popup__edit_name {
+    .popup__form_name {
         width: 238px;
        
 }

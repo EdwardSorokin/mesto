@@ -1,4 +1,4 @@
-.popup__edit_comment {
+.popup__form_comment {
     border: 0;
     display: block;
     margin: auto;
@@ -12,13 +12,13 @@
     box-shadow: none;
 }
 
-.popup__edit_comment:focus {
+.popup__form_comment:focus {
     outline: none;
     box-shadow: none;
 }
 
 @media (max-width: 630px) {
-    .popup__edit_comment {
+    .popup__form_comment {
         width: 238px;
 }
 }
