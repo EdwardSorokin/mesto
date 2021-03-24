@@ -1,0 +1,19 @@
+.header {
+    max-width: 880px;
+  /*  border: 1px solid red;*/
+    margin: 0 auto;
+}
+
+@media (max-width: 910px) {
+    .header {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 630px) {
+    .header {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}

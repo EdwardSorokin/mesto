@@ -1,0 +1,5 @@
+.profile__info-image {
+    max-width: 160px;
+    max-height: 120px;
+    border-radius: 100%;
+}

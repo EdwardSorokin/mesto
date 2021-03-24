@@ -1,0 +1,11 @@
+.element__vector {
+    cursor: pointer;
+}
+
+.element__vector:hover {
+    opacity: 0.5;
+}
+
+.element__vector:active {
+    background: #000000;
+}

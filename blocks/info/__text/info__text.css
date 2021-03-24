@@ -1,0 +1,15 @@
+.info__text {
+  /*  border: 1px solid red;*/
+    margin-left: 30px;
+    margin-top: 22px;
+    margin-bottom: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+@media (max-width: 630px) {
+    .info__text {
+        margin-bottom: 36px;
+        justify-content: center;
+    }
+}

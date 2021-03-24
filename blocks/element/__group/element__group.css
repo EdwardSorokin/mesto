@@ -1,0 +1,9 @@
+.element__group {
+    display: flex;
+    justify-content: space-between;
+    max-width: 246px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 31px;
+ /*   border: 1px solid red;*/
+}
