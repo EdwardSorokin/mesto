@@ -1,4 +1,4 @@
-.popup__form_comment {
+.popup__form-name {
     border: 0;
     display: block;
     margin: auto;
@@ -9,16 +9,18 @@
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
+    line-height: 17px;
     box-shadow: none;
 }
 
-.popup__form_comment:focus {
+.popup__form-name:focus {
     outline: none;
     box-shadow: none;
 }
 
 @media (max-width: 630px) {
-    .popup__form_comment {
+    .popup__form-name {
         width: 238px;
+       
 }
 }

@@ -2,7 +2,7 @@ let popup = document.querySelector('.popup');
 let openPopupBtn = document.getElementById('open_popup_btn');
 let closePopupBtn = document.querySelector('.popup__close');
 let PopupOverlay = document.querySelector('.popup__overlay');
-let savePopup = document.querySelector('.popup__save');
+let savePopup = document.querySelector('.popup__form-save');
 
 function openPopup() {
     popup.classList.add('popup_opened');

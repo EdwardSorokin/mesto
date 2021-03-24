@@ -33,7 +33,6 @@
 @import "../blocks/popup/__close/popup__close.css";
 @import "../blocks/popup/__form/popup__form.css";
 @import "../blocks/popup/__title/popup__title.css";
-@import "../blocks/popup/__form/__form_name/popup__form_name.css";
-@import "../blocks/popup/__form/__form_comment/popup__form_comment.css";
-@import "../blocks/popup/__form/__save/popup__save.css";
-@import "../blocks/popup/__form/__link-btn/popup__link-btn.css";
+@import "../blocks/popup/__form/__form-name/popup__form-name.css";
+@import "../blocks/popup/__form/__form-comment/popup__form-comment.css";
+@import "../blocks/popup/__form/__form-save/popup__form-save.css";
