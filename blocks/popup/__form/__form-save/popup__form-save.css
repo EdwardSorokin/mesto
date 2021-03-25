@@ -12,6 +12,7 @@
     text-align: center;
     font-family: "inter";
     margin: auto;
+    margin-bottom: 37px;
     display: block;
     margin-top: 48px;
     cursor: pointer;
@@ -24,6 +25,7 @@
 @media (max-width: 630px) {
     .popup__form-save {
         margin-top: 45px;
+        margin-bottom: 25px;
         width: 238px;
         height: 46px;
         font-size: 14px;
