@@ -1,8 +1,8 @@
 .popup__overlay {
     position: absolute;
-    left: 0px; 
-    right: 0px; 
-    top: 0px; 
+    left: 0px;
+    right: 0px;
+    top: 0px;
     bottom: 0px;
     background: rgba(0, 0, 0, 0.5);
 }
