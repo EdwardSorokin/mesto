@@ -10,6 +10,7 @@
     font-size: 14px;
     line-height: 17px;
     box-shadow: none;
+    padding-bottom: 13px;
 }
 
 .popup__form-input:focus {
