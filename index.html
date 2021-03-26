@@ -12,7 +12,6 @@
     <div class="page">
         <header class="header">
             <img class="header__logo" src="./images/logo-1.svg" alt="Место">
-            <div class="header__line"></div>
         </header>
         <main class="content">
             <section class="profile">
@@ -31,65 +30,65 @@
             </section>
 
             <section class="elements">
-                <article class="element">
+                <div class="element">
                     <div class="element__rectangle">
                         <img class="element__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="Карачаевск">
                         <div class="element__group">
-                            <p class="element__text">Карачаевск</p>
+                            <h2 class="element__text">Карачаевск</h2>
                             <button class="element__vector" type="button"></button>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <article class="element">
+                <div class="element">
                     <div class="element__rectangle">
                         <img class="element__image" src="./images/kirill-pershin-1404681-unsplash(1).png" alt="Гора Эльбрус">
                         <div class="element__group">
-                            <p class="element__text">Гора Эльбрус</p>
+                            <h2 class="element__text">Гора Эльбрус</h2>
                             <button class="element__vector" type="button"></button>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <article class="element">
+                <div class="element">
                     <div class="element__rectangle">
                         <img class="element__image" src="./images/kirill-pershin-1556355-unsplash(1).png" alt="Домбай">
                         <div class="element__group">
-                            <p class="element__text">Домбай</p>
+                            <h2 class="element__text">Домбай</h2>
                             <button class="element__vector" type="button"></button>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <article class="element">
+                <div class="element">
                     <div class="element__rectangle">
                         <img class="element__image" src="./images/kirill-pershin-1404681-unsplash.png" alt="Гора Эльбрус">
                         <div class="element__group">
-                            <p class="element__text">Гора Эльбрус</p>
+                            <h2 class="element__text">Гора Эльбрус</h2>
                             <button class="element__vector" type="button"></button>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <article class="element">
+                <div class="element">
                     <div class="element__rectangle">
                         <img class="element__image" src="./images/kirill-pershin-1556355-unsplash.png" alt="Домбай">
                         <div class="element__group">
-                            <p class="element__text">Домбай</p>
+                            <h2 class="element__text">Домбай</h2>
                             <button class="element__vector" type="button"></button>
                         </div>
                     </div>
-                </article>
+                </div>
 
-                <article class="element">
+                <div class="element">
                     <div class="element__rectangle">
                         <img class="element__image" src="./images/kirill-pershin-1088404-unsplash.png" alt="Карачаево-Черкесия">
                         <div class="element__group">
-                            <p class="element__text">Карачаево-Черкесия</p>
+                            <h2 class="element__text">Карачаево-Черкесия</h2>
                             <button class="element__vector" type="button"></button>
                         </div>
                     </div>
-                </article>
+                </div>
             </section>
         </main>
 
@@ -97,13 +96,13 @@
             <p class="footer__copyright">&#169;&nbsp;2020 Mesto Russia</p>
         </footer>
         <div class="popup">
-            <div class="popup__overlay"></div>
+           <div class="popup__overlay"></div>
             <div class="popup__container">
                 <button type="button" class="popup__close"></button>
                 <h2 class="popup__title">Редактировать профиль</h2>
                 <form name="form" class="popup__form">
-                    <input type="text" id="nameInput" class="popup__form-name" value="Жак-Ив Кусто">
-                    <input type="text" id="jobInput" class="popup__form-comment" value="Исследователь океана">
+                    <input type="text" id="nameInput" class="popup__form-input" value="Жак-Ив Кусто" name="name">
+                    <input type="text" id="jobInput" class="popup__form-input" value="Исследователь океана" name="work">
                     <button class="popup__form-save" type="submit">Сохранить</button>
                 </form>
             </div>

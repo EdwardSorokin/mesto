@@ -3,7 +3,6 @@
 @import "../blocks/body/body.css";
 @import "../blocks/page/page.css";
 @import "../blocks/header/header.css";
-@import "../blocks/header/__line/header__line.css";
 @import "../blocks/header/__logo/header__logo.css";
 @import "../blocks/profile/profile.css";
 @import "../blocks/profile/__add-button/profile__add-button.css";
@@ -32,6 +31,5 @@
 @import "../blocks/popup/__close/popup__close.css";
 @import "../blocks/popup/__form/popup__form.css";
 @import "../blocks/popup/__title/popup__title.css";
-@import "../blocks/popup/__form/__form-name/popup__form-name.css";
-@import "../blocks/popup/__form/__form-comment/popup__form-comment.css";
-@import "../blocks/popup/__form/__form-save/popup__form-save.css";
+@import "../blocks/popup/__form-input/popup__form-input.css";
+@import "../blocks/popup/__form-save/popup__form-save.css";
